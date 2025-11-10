@@ -18,9 +18,9 @@
 // ----Masala sharti-----
 // Foydalanuvchi prompt orqali "ha" yoki "yo'q" deb kiritadi. Agar "ha" kiritilgan bo'lsa, "Ruxsat bor!" deb alert chiqaring, aks holda "Ruxsat yo'q!" deb alert chiqaring.
 
-// let lette = prompt("Yes or No")
+// let lette = prompt("ha or yuq")
 
-// if (lette == "yes") {
+// if (lette == "ha") {
 //   alert ("Ruxsat bor!")
 // } else {
 //   alert ("Ruxsat yo'q!")
@@ -60,7 +60,7 @@
 // ----Masala sharti-----
 // Foydalanuvchi prompt orqali bir son kiritadi. Agar son juft bo'lsa, "Juft son!" deb alert chiqaring, aks holda "Toq son!" deb alert chiqaring.
 
-// let number = +prompt("Biron son kiriting")
+// let number = +prompt("Bironta son kiriting")
 
 // if (number % 2 == 0) {
 //   alert("Juft son!")
