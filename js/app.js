@@ -1,142 +1,207 @@
-// ====================================
-// ============ 1-masala ==============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali bir son kiritadi. Agar son 10 ga teng bo'lsa, "To'g'ri son!" deb alert chiqaring, aks holda "Boshqa son kiritdingiz!" deb alert chiqaring.
+// ===============================================================================================
+//       3 masala
+// =====================================================================================================
 
-//   let namber = +prompt(10);
-
-//   if (namber >= 10) {
-//     console.log ("To'g'ri son");
-//   } else {
-//     console.log ("Boshqa son kiritdingiz");
-//   }
-
-// ====================================
-// ============ 2-masala ==============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali "ha" yoki "yo'q" deb kiritadi. Agar "ha" kiritilgan bo'lsa, "Ruxsat bor!" deb alert chiqaring, aks holda "Ruxsat yo'q!" deb alert chiqaring.
-
-// let lette = prompt("ha or yuq")
-
-// if (lette == "ha") {
-//   alert ("Ruxsat bor!")
-// } else {
-//   alert ("Ruxsat yo'q!")
+// function greet(name) {
+//    console.log("Salom" + name);
 // }
 
-// ====================================
-// ============ 3-masala ==============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali bir son kiritadi. Agar son 0 dan katta va 100 dan kichik bo'lsa, "Yaxshi diapazon!" deb alert chiqaring, aks holda "Diapazon tashqarisida!" deb alert chiqaring.
+// greet(" ulug'bek");
 
-// let number = +prompt("Son kiriting!")
 
-// if (number > 0 && number < 100) {
-//   alert ("Yaxshi diapazon!")
-// } else {
-//   alert ("Diapazon tashqarisida!")
+// const greet = function(name) {
+//    console.log("Salom" + name);
 // }
 
-// ====================================
-// ============ 4-masala ==============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali bir so'z kiritadi. Agar so'z uzunligi 5 dan katta bo'lsa, "Uzoq so'z!" deb alert chiqaring, aks holda "Qisqa so'z!" deb alert chiqaring.
+// greet(" ulug'bek");
 
-// let text = prompt("So'z kiriting")
-
-// if (text.length >=5) {
-//   alert("Uzun so'z")
-// } else {
-//   alert("Qisqa so'z")
+// const greet = (name) => {
+//    console.log("Salom" + name);
 // }
 
-// ====================================
-// ============ 5-masala ==============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali bir son kiritadi. Agar son juft bo'lsa, "Juft son!" deb alert chiqaring, aks holda "Toq son!" deb alert chiqaring.
 
-// let number = +prompt("Bironta son kiriting")
+// greet(" ulug'bek");
 
-// if (number % 2 == 0) {
-//   alert("Juft son!")
-// } else {
-//   alert("Toq son!")
+
+// ===============================================================================================
+//       4 masala
+// ===============================================================================================
+
+// function fullname(firstName, lastName) {
+//    console.log(firstName + lastName);
 // }
 
-// ====================================
-// ============ 6-masala ==============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali bir son kiritadi. Agar son 0 bo'lsa, "Nol kiritdingiz!" deb alert chiqaring, aks holda "Nol emas!" deb alert chiqaring.
+// fullname("Nurulloh", "Komilov" );
 
-// let number = +prompt("Son kiriting")
-
-// if (number == 0) {
-//   alert("No'l kiritdingiz")
-// } else {
-//   alert("Nol emas")
+// const fullname = function(firstName, lastName) {
+//    console.log(firstName + 0l7astName);
 // }
 
-// ====================================
-// ============ 7-masala =============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali bir so'z kiritadi. Agar so'z "salom" bo'lsa, "Salom, dunyo!" deb alert chiqaring, aks holda "Boshqa so'z kiritdingiz!" deb alert chiqaring.
+// fullname("Nurulloh", "Komilov" );
 
-// let words = prompt("So'z kiriting!")
-// if (words == "salom") {
-//   alert("SALOM DUNYO")
-// } else {
-//   alert("Boshqa so'z kiritdingiz!")
+// const fullname = (firstName, lastName) => {
+//    console.log(firstName + lastName);
 // }
 
-// ====================================
-// ============ 8-masala =============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali ikkita son kiritadi. Agar birinchi son ikkinchisidan katta bo'lsa, "Birinchi son katta!" deb alert chiqaring, aks holda "Ikkichi son katta yoki teng!" deb alert chiqaring.
 
-// let number1 = +prompt("Birinchi sonni kiriting:");
-// let number2 = +prompt("Ikkinchi sonni kiriting:");
+// fullname("Nurulloh", "Komilov" );
 
-// if (number1 > number2) {
-//   alert("Birinchi son katta!");
-// }if (number2 > number1) {
-//   alert("Ikkinchi son katta!");
-// } else {
-//   alert("Sonlar teng!");
+
+// ===============================================================================================
+//       5 masala
+// ===============================================================================================
+
+// function rectanglePerimeter(length, width) {
+//    console.log(2*(length + width));
 // }
 
-// ====================================
-// ============ 9-masala =============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali yoshini va ismini kiritadi. Agar yosh 18 dan katta va ism "Ali" bo'lsa, "Xush kelibsiz, Ali!" deb alert chiqaring, aks holda "Kirish taqiqlanadi!" deb alert chiqaring.
+// rectanglePerimeter(5, 3);
 
-// let age = +prompt("Yoshingizni kiriting!")
-// let name = prompt("ismingizni kiriting!")
-
-// if (age >= 18 && name == "Ali") {
-//   alert("Kirishga ruxsat!")
-// } else {
-//   alert("Kirish taqiqlanadi")
+// const rectanglePerimeter = function(length, width) {
+//    console.log(2*(length + width));
 // }
 
-// ====================================
-// ============ 10-masala =============
-// ====================================
-// ----Masala sharti-----
-// Foydalanuvchi prompt orqali bir son kiritadi. Agar son 10 dan kichik yoki 100 dan katta bo'lsa, "Chegaradan tashqarida!" deb alert chiqaring, aks holda "Chegara ichida!" deb alert chiqaring.
+// rectanglePerimeter(5, 3);
 
-// let number = +prompt("Son kiriting:");
-
-// if (number < 10 || number > 100) {
-//   alert("Chegaradan tashqarida!");
-// } else {
-//   alert("Chegara ichida!");
+// const rectanglePerimeter = (length, width) => {
+//    console.log(2*(length + width));
 // }
+
+
+//  rectanglePerimeter(5, 3);
+
+
+// ===============================================================================================
+//       6 masala
+// ===============================================================================================
+
+// function  triangleSides(a, b, c) {
+//   console.log("Tomon: a " + a);
+//   console.log("Tomon: b " + b);
+//   console.log("Tomon: c " + c);
+// }
+
+// triangleSides(3, 4, 5);
+
+// const triangleSides = function(a, b, c) {
+//   console.log("Tomon: a " + a);
+//   console.log("Tomon: b " + b);
+//   console.log("Tomon: c " + c);
+// }
+
+// triangleSides(3, 4, 5);
+
+// const triangleSides = (a, b, c) => {
+//   console.log("Tomon: a " + a);
+//   console.log("Tomon: b " + b);
+//   console.log("Tomon: c " + c);
+// }
+
+
+// triangleSides(3, 4, 5);
+
+
+// ===============================================================================================
+//       7 masala
+// ===============================================================================================
+
+// function squareNumber(number) {
+//   console.log(number * 5);
+// }
+
+// squareNumber(5);
+
+// const squareNumber = function(number)  {
+   //  console.log(number * 5);
+// }
+
+// squareNumber(5);
+
+// const squareNumber = (number) => {
+    //  console.log(number * 5);
+// }
+
+
+// squareNumber(5);
+
+
+// ===============================================================================================
+//       8 masala
+// ===============================================================================================
+
+// function animalInfo(name, age) {
+//   console.log(name + age + " yoshda");
+// }
+
+// animalInfo("Mushuk ", 2);
+
+// const animalInfo = function(name, age)  {
+//    console.log(name + age + " yoshda");
+// }
+
+// animalInfo("Mushuk ", 2);
+
+// const animalInfo = (name, age) => {
+//   console.log(name + age + " yoshda");
+// }
+
+
+// animalInfo("Mushuk ", 2);
+
+
+// ===============================================================================================
+//       9 masala
+// ===============================================================================================
+
+// function sayHello() {
+//   console.log("Salom Dunyo!");
+// }
+
+// sayHello();
+
+// const sayHello2 = function () {
+//   console.log("Salom Dunyo!");
+// }
+
+// sayHello2();
+
+// const sayHello3 = () => {
+//   console.log("Salom Dunyo!");
+// }
+
+// sayHello3();
+
+
+// ===============================================================================================
+//       10 masala
+// ===============================================================================================
+
+// function printNames(name1, name2, name3, name4, name5) {
+//   console.log(name1);
+//   console.log(name2);
+//   console.log(name3);
+//   console.log(name4);
+//   console.log(name5);
+// }
+
+// printNames("Ali", "Vali", "Gulbahor", "Zilola", "Javohir");
+
+// const printNames = function (name1, name2, name3, name4, name5) {
+//   console.log(name1);
+//   console.log(name2);
+//   console.log(name3);
+//   console.log(name4);
+//   console.log(name5);
+// }
+
+// printNames("Ali", "Vali", "Gulbahor", "Zilola", "Javohir");
+
+// const printNames = (name1, name2, name3, name4, name5) => {
+//   console.log(name1);
+//   console.log(name2);
+//   console.log(name3);
+//   console.log(name4);
+//   console.log(name5);
+// }
+
+// printNames("Ali", "Vali", "Gulbahor", "Zilola", "Javohir");
