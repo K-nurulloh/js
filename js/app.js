@@ -130,19 +130,19 @@
 // ===============================================================================================
 
 // function animalInfo(name, age) {
-//   console.log(name + age + " yoshda");
+//   console.log("Bu " + name + age + " yoshda");
 // }
 
 // animalInfo("Mushuk ", 2);
 
 // const animalInfo = function(name, age)  {
-//    console.log(name + age + " yoshda");
+//    console.log("Bu " + name + age + " yoshda");
 // }
 
 // animalInfo("Mushuk ", 2);
 
 // const animalInfo = (name, age) => {
-//   console.log(name + age + " yoshda");
+//   console.log("Bu " + name + age + " yoshda");
 // }
 
 
